@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: rgb(247, 240, 232);
 }
 button {
   background-color: rgb(219, 219, 219);
@@ -46,6 +47,7 @@ button.last-column:active {
 }
 
 .result-screen {
+  padding: 8px;
   font-family: monospace;
   display: flex;
   align-items: center;
