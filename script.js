@@ -47,13 +47,7 @@ function buttonClick(value) {
     buffer += value;
     screen.innerText = buffer;
   }
-
-  console.log(`operand1: ${operand1}`);
-  console.log(`operation: ${operation}`);
-  console.log(`buffer: ${buffer}`);
-  console.log(`result: ${result}`);
 }
-
 const button = document
   .querySelector(".calculator")
   .addEventListener("click", function (event) {
